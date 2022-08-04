@@ -1,0 +1,35 @@
+body {
+	background-color: DarkSlateGray
+}
+
+.MainNameDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.MainName {
+	color: red;
+	text-align: center;
+	width: fit-content;
+	height: fit-content;
+	position: absolute;
+	top: 50%;
+	margin-top: -57.758px;
+}
+
+.MainParaDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.MainPara {
+	color: FireBrick;
+	text-align: center;
+	width: fit-content;
+	height: fit-content;
+	position: absolute;
+	top: 57%;
+	margin-top: -57.758px;
+}
