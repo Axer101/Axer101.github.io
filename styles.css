@@ -1,35 +1,160 @@
 body {
-	background-color: DarkSlateGray
+	height: fit-content;
+	background-image: radial-gradient(Black 34%, DarkSlateGray);
 }
 
-.MainNameDiv{
+.HomeNameDiv{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.MainName {
+.HomeName {
 	color: red;
 	text-align: center;
 	width: fit-content;
 	height: fit-content;
 	position: absolute;
-	top: 50%;
+	top: 55%;
 	margin-top: -57.758px;
 }
 
-.MainParaDiv {
+.HomeParaDiv {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.MainPara {
+.HomePara {
 	color: FireBrick;
 	text-align: center;
 	width: fit-content;
 	height: fit-content;
 	position: absolute;
-	top: 57%;
+	top: 62%;
 	margin-top: -57.758px;
+}
+
+.AboutNameDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.AboutName {
+	color: red;
+	text-align: center;
+	width: fit-content;
+	height: fit-content;
+	position: absolute;
+	top: 55%;
+	margin-top: -57.758px;
+}
+
+.AboutParaDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.AboutPara {
+	color: FireBrick;
+	text-align: center;
+	width: fit-content;
+	height: fit-content;
+	position: absolute;
+	top: 62%;
+	margin-top: -57.758px;
+}
+
+.ProjectsNameDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ProjectsName {
+	color: red;
+	text-align: center;
+	width: fit-content;
+	height: fit-content;
+	position: absolute;
+	top: 55%;
+	margin-top: -57.758px;
+}
+
+.ProjectsParaDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ProjectsPara {
+	color: FireBrick;
+	text-align: center;
+	width: fit-content;
+	height: fit-content;
+	position: absolute;
+	top: 62%;
+	margin-top: -57.758px;
+}
+
+.YTbuttonDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.YTbutton {
+	width: fit-content;
+	height: fit-content;
+	position: absolute;
+	top: 80%;
+	margin-top: -57.758px;
+}
+
+.topnav {
+	background-color: #696969;
+	overflow: hidden;
+}
+
+.topnav a {
+	float: center;
+	display: block;
+	color: #F0FFFF;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #8B0000;
+	color: #A9A9A9;
+}
+
+.topnav .icon {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	.topnav.responsive
+	{position: relative;}
+	.topnav.responsive a.icon
+	{
+		position: absolute;
+		right: 0;
+		top: 0;
+		}
+		.topnav.responsive a {
+			float: noe;
+			display: block;
+			text-align: left;
+		}
+}
+
+.Copyright {
+	position: fixed;
+	bottom: 0;
+	right: 100;
 }
